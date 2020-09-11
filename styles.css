@@ -1,0 +1,215 @@
+circle {
+  mix-blend-mode: multiply;
+}
+
+.tick text {
+  font-size: 12px; /*2.7em;*/
+	fill: #635F5D;
+}
+
+.legend__label {
+	font-size: 15px;
+	fill: #8E8883;
+}
+
+.line-path{
+	fill: none;
+  /*stroke: steelblue;*/
+  /*stroke-width: 5;*/
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  mix-blend-mode: multiply;
+}
+
+.area-path{
+	/*fill: steelblue;
+  stroke-width: 5;*/
+  stroke-linejoin: round;
+  mix-blend-mode: multiply;
+  opacity: 0.4;
+}
+
+.tick line {
+	stroke: #C0C0BB;
+}
+
+.axis-label {
+	font-size: 20px; /*5em;*/
+	fill: #8E8883;
+}
+
+text.divergence {
+  font-size: 12px;
+  fill: #2F4A6D;
+}
+
+text.barValue {
+  font-size: 12px;
+  fill: #2F4A6D;
+}
+
+.sliceLabel{
+  font-size: 12px; /*2.7em;*/
+	fill: #635F5D;
+}
+
+polyline {
+	stroke: #635F5D;
+}
+
+.titleChart {
+	font-size: 30px;
+  fill: #634F5D
+}
+
+#menus-ScatterPlot select {
+  margin: 5px;
+}
+
+#menus-LineChart select {
+  margin: 5px;
+}
+
+#x-menu-BarChart select {
+  margin: 5px;
+}
+
+#circle-menu-ScatterPlot {
+	padding-top: 10px;
+  margin-left: 5px;
+}
+
+#circle-menu-ScatterPlot input {
+  width: 33px;
+  margin-right: 5px;
+}
+
+
+#opacity-menu-ScatterPlot {
+	margin-left: 10px;
+}
+
+#opacity-menu-LineChart {
+	margin-left: 10px;
+}
+
+#opacitySlider-LineChart {
+	-webkit-appearance: none;
+  width: 10%;
+  height: 10px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider-menu {
+	margin-top: 10px;
+}
+
+#opacitySlider-LineChart::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; 
+  background: steelblue;
+  cursor: pointer;
+}
+
+#opacitySlider-LineChart::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: steelblue;
+  cursor: pointer;
+}
+
+#opacitySlider-ScatterPlot {
+	-webkit-appearance: none;
+  width: 10%;
+  height: 10px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+#opacitySlider-ScatterPlot::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; 
+  background: steelblue;
+  cursor: pointer;
+}
+
+#opacitySlider-ScatterPlot::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: steelblue;
+  cursor: pointer;
+}
+
+.tooltip{
+  position      : absolute;
+  text-align    : left-aligned;
+  max-width     : 100px;
+  max-height    : 50px;
+  padding       : 8px;
+  border        : solid;
+  border-color : #C0C0BB;
+  border-width : 1px;
+  border-radius : 8px;
+  margin-top    : -30px;
+  font          : 10px Italic;
+  background    : #FFF;
+  color         : #635F5D;
+  pointer-events: none;
+}
+
+.iqr {
+  stroke-width: 1px;
+  stroke: black;
+}
+  
+.lowOutlier {
+  fill: white;
+  stroke: 1.5px;
+}
+  
+.highOutlier {
+  fill: white;
+  stroke: 1.5px;
+}
+  
+.checkbox-label text {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.chartTypeButtonLineChart {
+  margin-left: 5px;
+}
+
+.chartTypeButtonBarChart {
+  margin-left: 5px;
+}
+  
+#linewidth-menu-LineChart {
+  padding-top: 10px;
+  margin-left: 5px;
+}
+  
+#linewidth-menu-LineChart input {
+  width: 33px;
+  margin-right: 5px;
+}
